@@ -1,0 +1,52 @@
+body {
+    color: navy;
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .container {
+    background-color: #007ea7;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 0.5in;
+  }
+  #sentence {
+    font-size: 1cm;
+    color: black;
+    text-align: center;
+    width: 80%;
+  }
+  
+  h1 {
+    padding-top: 1in;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+  }
+  
+  button {
+    height: 0.8in;
+    width: 1.5in;
+    justify-content: center;
+    outline: none;
+    font-family: sans-serif;
+    background-color: lightblue;
+    border: 2px solid #1b1b1b;
+    color: black;
+    transition: 500ms ease-in;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1cm;
+    margin-bottom: 0.5in;
+  }
+  
+  button:hover {
+    color: #fff;
+    background-color: #1b1b1b;
+  }
